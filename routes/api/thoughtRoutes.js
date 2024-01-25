@@ -13,4 +13,11 @@ router.route('/:thoughtId')
  .get(oneThought)
  .put(updateThought)
  .delete(deleteThought)
+
+ //TODO: NEED TO CREATE controller for post and delete for the route below
+router.route('/:thoughtID/reactions')
+.post()
+.delete()
+
+
 module.exports = router;

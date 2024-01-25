@@ -9,7 +9,7 @@ const userSchema = new Schema(
         trim: true,
       },
       email: {
-        type: Boolean,
+        type: String,
         default: true,
         unique: true, 
         match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
