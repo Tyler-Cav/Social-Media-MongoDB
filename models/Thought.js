@@ -10,7 +10,7 @@ const thoughtSchema = new Schema(
         required: true,
       },
       createdAt: {
-        Type: Date,
+        type: Date,
         default: Date.now,
         //TODO: Fix get method for timestamp query
       },

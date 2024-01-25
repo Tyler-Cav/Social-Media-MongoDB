@@ -15,9 +15,9 @@ const reactionSchema = new Schema({
         required: true
     },
     createdAt: {
-        Type: Date,
+        type: Date,
         default: Date.now,
-        //TODO: Fix get method for timestamp query
+        //TODO: Fix get method for timestamp query....This.Date(dayjs??)
     }
     
 })
