@@ -16,7 +16,9 @@ module.exports = {
         try {
             const getOne = await User.findOne({ _id: req.params.userId })
                 .select('-__v')
-                .populate('thoughts', 'friends')
+                .populate('friends')
+                .populate('thoughts')
+                
             res.status(200).json(getOne)
         } catch (err) {
             console.log(err);
