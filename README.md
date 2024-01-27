@@ -1,7 +1,7 @@
 # Social-Media-MongoDB
 
   ## Description
-  This is a backend
+  This is a backend project meant to show off my current MongoDB knowledge.
   ## Table of Contents
   [Installation](#installation) //
  [Usage](#usage) //
@@ -12,6 +12,7 @@ Please clone the repository. Once it is open in your text editor, in your CLI at
   ## Usage
   To start the program, please type `node server.js` within the CLI at the root of the directory to this repo. You will then be prompted that you are able to host the routes locally. Please check the routes folder for the pathways.
 
+To see how the routing works. Please see the video link below.  
   [Google Photos Video](https://photos.app.goo.gl/X2hm4r4aAwGXZUD68)
   
 
